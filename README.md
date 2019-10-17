@@ -8,6 +8,8 @@ const npm = require("npm");
 npm.load(() => npm.run("run:examples:s"));
 ```
 
+You can find a [pretty identical example on CodeSandbox](https://codesandbox.io/s/wandering-currying-skgsw).
+
 The result is (in the end you can find the bug itself):
 
 - ✅ running `$ npm run run:examples:s`
